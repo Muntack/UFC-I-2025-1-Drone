@@ -1,10 +1,60 @@
-# Prerequisites
+# === Archivos temporales del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Archivos del IDE Arduino ===
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
 *.d
+*.o
+*.a
+*.pyc
+*.swp
+*.swo
+
+# === Archivos del entorno de compilación de Arduino ===
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+libdeps/
+.vscode/
+*.dep
+
+# === Librerías locales instaladas manualmente (opcional ignorar) ===
+#lib/
+
+# === Archivos personales ===
+*.log
+*.bak
+*.tmp
+
+# === Arduino-cli o PlatformIO ===
+.arduinoide/
+.arduino/
+.arduino15/
+.idea/
+
+# === Dependencias generadas con PlatformIO (si usas) ===
+*.pio
+*.cppbuild
+*.ccls-cache/
+
+# === Carpetas ocultas ===
+*.sublime*
+*.vscode/
+*.idea/
+
+# Prerequisites
+#*.d
 
 # Compiled Object files
 *.slo
 *.lo
-*.o
+#*.o
 *.obj
 
 # Precompiled Headers
@@ -23,7 +73,7 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
+#*.a
 *.lib
 
 # Executables
