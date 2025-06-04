@@ -10,11 +10,11 @@ const int enb = 5;
 const int enc = 6;
 const int end = 9;
 
-// Pines de dirección
-const int in1 = 22, in2 = 23;
-const int in3 = 24, in4 = 25;
-const int in5 = 26, in6 = 27;
-const int in7 = 28, in8 = 29;
+// Pines de dirección (adaptados para Arduino Pro Mini)
+const int in1 = 10, in2 = 11;  // Motor 1
+const int in3 = 12, in4 = 13;  // Motor 2
+const int in5 = 2,  in6 = 7;   // Motor 3
+const int in7 = 8,  in8 = A1;  // Motor 4 (A1 = pin digital 15)
 
 // Potenciómetro y botón
 const int pinPot = A0;
